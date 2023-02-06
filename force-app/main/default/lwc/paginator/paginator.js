@@ -28,7 +28,7 @@ export default class Paginator extends LightningElement {
 
     get isLastPage() {
         return this.pageNumber >= this.totalPages;
-    }
+    }   
 
     get totalPages() {
         return Math.ceil(this.totalItemCount / this.pageSize);
